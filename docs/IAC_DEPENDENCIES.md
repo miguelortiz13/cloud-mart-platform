@@ -4,7 +4,16 @@ Este documento está diseñado específicamente para que un **agente externo de 
 
 ---
 
+## 🖼️ Diagrama Generado Automáticamente por Terminal (`terraform graph + dot`)
+
+![Terraform Graph Dependency Diagram](file:///home/miguel/Proyectos/cloud-mart-platform/docs/terraform_graph.png)
+
+> **Nota**: Este gráfico fue generado directamente por la terminal ejecutando `terraform graph | dot -Tpng -o docs/terraform_graph.png`. También puedes encontrar el archivo vectorial listo para escalar en [docs/terraform_graph.svg](file:///home/miguel/Proyectos/cloud-mart-platform/docs/terraform_graph.svg).
+
+---
+
 ## 📊 Grafo de Dependencias de Recursos Terraform (Mermaid)
+
 
 ```mermaid
 graph TD
