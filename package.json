@@ -1,0 +1,26 @@
+{
+  "name": "cloud-mart-platform",
+  "version": "1.0.0",
+  "description": "Fictional production-ready Cloud E-Commerce Platform API & Infrastructure simulation",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "node --watch src/index.js",
+    "test": "node --test"
+  },
+  "keywords": [
+    "terraform",
+    "iac",
+    "express",
+    "microservices",
+    "architecture-diagrams"
+  ],
+  "author": "Cloud Architecture Team",
+  "license": "MIT",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "morgan": "^1.10.0"
+  }
+}
